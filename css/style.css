@@ -162,7 +162,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 65px;
   cursor: pointer;
 }
-.sunView {
+.daytime {
   width: 60px;
   position: absolute;
   right: 130px;
