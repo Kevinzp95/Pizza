@@ -8,6 +8,12 @@
   overflow-x: hidden;
 }
 
+.bgBlack {
+  background-color: #151515;
+}
+.bgWhite {
+  background-color: #fff;
+}
 body::-webkit-scrollbar {
   width: 12px; /* ширина всей полосы прокрутки */
 }
@@ -70,7 +76,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-color: #151515;
+  /* background-color: #151515; */
 }
 
 .leftSide__wrapper {
@@ -171,7 +177,7 @@ body::-webkit-scrollbar-thumb {
 .menu {
   height: 100vh;
   width: 100vw;
-  background-color: #151515;
+  /* background-color: #151515; */
   position: relative;
   display: flex;
 }
@@ -201,7 +207,7 @@ body::-webkit-scrollbar-thumb {
 .slicePizza {
   display: flex;
   flex-direction: column;
-  color: #ffddc8;
+  color: #ff8c42;
   font-family: "Kosugi", sans-serif;
 }
 .slicePizza p {
@@ -213,7 +219,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .classicPizza {
-  color: #ffddc8;
+  color: #ff8c42;
 }
 
 .classicPizza p {
@@ -260,7 +266,7 @@ body::-webkit-scrollbar-thumb {
 .listPizza {
   width: 100vw;
   height: 100vh;
-  background-color: #151515;
+  /* background-color: #151515; */
   position: relative;
 }
 .orangeLine {
@@ -329,7 +335,7 @@ body::-webkit-scrollbar-thumb {
 .namePizza {
   display: flex;
   position: absolute;
-  color: #ffddc8;
+  color: #ff8c42;
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
   left: 1010px;
@@ -347,7 +353,7 @@ body::-webkit-scrollbar-thumb {
 .reservation {
   width: 100vw;
   height: 100vh;
-  background-color: #151515;
+  /* background-color: #151515; */
   position: relative;
   overflow: hidden;
 }
@@ -488,7 +494,7 @@ body::-webkit-scrollbar-thumb {
 .billBlock {
   width: 100vw;
   height: 100vh;
-  background-color: #151515;
+  /* background-color: #151515; */
   position: relative;
   display: flex;
 }
@@ -503,7 +509,7 @@ body::-webkit-scrollbar-thumb {
 .account {
   width: 650px;
   height: 150px;
-  background: rgb(255, 255, 255, 0.2);
+  background: #434343;
   position: absolute;
   top: 150px;
   right: 0;
@@ -514,7 +520,7 @@ body::-webkit-scrollbar-thumb {
 .delivery {
   width: 650px;
   height: 85px;
-  background: rgb(255, 255, 255, 0.2);
+  background: #434343;
   position: absolute;
   top: 370px;
   right: 0;
@@ -526,7 +532,7 @@ body::-webkit-scrollbar-thumb {
 .payment {
   width: 650px;
   height: 85px;
-  background: rgb(255, 255, 255, 0.2);
+  background: #434343;
   position: absolute;
   top: 525px;
   right: 0;
@@ -605,6 +611,7 @@ body::-webkit-scrollbar-thumb {
   padding: 5px 22px;
   left: 240px;
   top: 250px;
+  z-index: 30;
 }
 
 #log {
@@ -628,6 +635,7 @@ body::-webkit-scrollbar-thumb {
   padding: 5px 27px;
   left: 420px;
   top: 250px;
+  z-index: 30;
 }
 #sign {
   font-family: "Quicksand", sans-serif;
